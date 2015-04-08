@@ -776,7 +776,16 @@
 							"id": "dijit/form/CurrencyTextBox",
 							"name": "CurrencyTextBox",
 							"fullname": "dijit/form/CurrencyTextBox",
-							"type": "constructor"
+							"type": "constructor",
+							"children": [
+								{
+									"id": "dijit/form/CurrencyTextBox.__Constraints",
+									"name": "__Constraints",
+									"fullname": "dijit/form/CurrencyTextBox.__Constraints",
+									"type": "constructor",
+									"children": []
+								}
+							]
 						},
 						{
 							"id": "dijit/form/DataList",
@@ -939,7 +948,16 @@
 							"id": "dijit/form/TimeTextBox",
 							"name": "TimeTextBox",
 							"fullname": "dijit/form/TimeTextBox",
-							"type": "constructor"
+							"type": "constructor",
+							"children": [
+								{
+									"id": "dijit/form/TimeTextBox.__Constraints",
+									"name": "__Constraints",
+									"fullname": "dijit/form/TimeTextBox.__Constraints",
+									"type": "constructor",
+									"children": []
+								}
+							]
 						},
 						{
 							"id": "dijit/form/ToggleButton",
@@ -951,7 +969,16 @@
 							"id": "dijit/form/ValidationTextBox",
 							"name": "ValidationTextBox",
 							"fullname": "dijit/form/ValidationTextBox",
-							"type": "constructor"
+							"type": "constructor",
+							"children": [
+								{
+									"id": "dijit/form/ValidationTextBox.__Constraints",
+									"name": "__Constraints",
+									"fullname": "dijit/form/ValidationTextBox.__Constraints",
+									"type": "object",
+									"children": []
+								}
+							]
 						},
 						{
 							"id": "dijit/form/VerticalRule",
@@ -4482,12 +4509,6 @@
 							"type": "constructor"
 						},
 						{
-							"id": "dojox/calendar/DecorationRenderer",
-							"name": "DecorationRenderer",
-							"fullname": "dojox/calendar/DecorationRenderer",
-							"type": "constructor"
-						},
-						{
 							"id": "dojox/calendar/ExpandRenderer",
 							"name": "ExpandRenderer",
 							"fullname": "dojox/calendar/ExpandRenderer",
@@ -4548,21 +4569,9 @@
 							"type": "constructor"
 						},
 						{
-							"id": "dojox/calendar/RendererManager",
-							"name": "RendererManager",
-							"fullname": "dojox/calendar/RendererManager",
-							"type": "constructor"
-						},
-						{
 							"id": "dojox/calendar/SimpleColumnView",
 							"name": "SimpleColumnView",
 							"fullname": "dojox/calendar/SimpleColumnView",
-							"type": "constructor"
-						},
-						{
-							"id": "dojox/calendar/StoreManager",
-							"name": "StoreManager",
-							"fullname": "dojox/calendar/StoreManager",
 							"type": "constructor"
 						},
 						{
@@ -8166,6 +8175,12 @@
 									"type": "object"
 								},
 								{
+									"id": "dojox/encoding/digests/_sha2",
+									"name": "_sha2",
+									"fullname": "dojox/encoding/digests/_sha2",
+									"type": "function"
+								},
+								{
 									"id": "dojox/encoding/digests/MD5",
 									"name": "MD5",
 									"fullname": "dojox/encoding/digests/MD5",
@@ -8181,25 +8196,25 @@
 									"id": "dojox/encoding/digests/SHA224",
 									"name": "SHA224",
 									"fullname": "dojox/encoding/digests/SHA224",
-									"type": "function"
+									"type": "undefined"
 								},
 								{
 									"id": "dojox/encoding/digests/SHA256",
 									"name": "SHA256",
 									"fullname": "dojox/encoding/digests/SHA256",
-									"type": "function"
+									"type": "undefined"
 								},
 								{
 									"id": "dojox/encoding/digests/SHA384",
 									"name": "SHA384",
 									"fullname": "dojox/encoding/digests/SHA384",
-									"type": "function"
+									"type": "undefined"
 								},
 								{
 									"id": "dojox/encoding/digests/SHA512",
 									"name": "SHA512",
 									"fullname": "dojox/encoding/digests/SHA512",
-									"type": "function"
+									"type": "undefined"
 								}
 							]
 						},
